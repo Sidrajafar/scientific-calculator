@@ -20,11 +20,11 @@ function getAns() {
 
 
 function Exp() {
-    document.getElementById('result').value = eval(Math.Exp * document.getElementById('result').value);
+    document.getElementById('result').value = eval(Math.Exp(document.getElementById('result').value);
 }
 
 function sqrt2() {
-    var sqrt2 = document.getElementById('result').value * document.getElementById('result').value
+    var sqrt2 = document.getElementById('result').value(Math.sqrt(document.getElementById('result').value
     document.getElementById('result').value = sqrt2;
 }
 
@@ -33,7 +33,7 @@ function log2() {
 }
 
 function pi() {
-    document.getElementById('result').value = eval(Math.PI * document.getElementById('result').value);
+    document.getElementById('result').value = eval(Math.PI(document.getElementById('result').value);
 }
 
 function log10() {
